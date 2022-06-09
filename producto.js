@@ -5,7 +5,7 @@ class Producto {
     }
 
     getPrecio(){
-        return this.precio
+        return this.precio 
     }
     setPrecio(valor){
         this.precio=valor

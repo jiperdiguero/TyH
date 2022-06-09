@@ -15,8 +15,7 @@ test('test productos precio', () => {
 
     expect(remera.getPrecio()).toBe(100);
     remera.setPrecio(500);
-    expect(remera.getPrecio()).toBe(500);
-    //let pro =v1.getProducto()
+    expect(remera.getPrecio()).toBe(500); 
     //expect(pro.getPrecio()).toBe(100);
     //expect(v1.getPrecio()).toBe(100);
     //expect(zapatilla.getPrecio()).toBe(150);
